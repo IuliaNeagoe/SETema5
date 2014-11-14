@@ -22,8 +22,6 @@ public class DesktopFactory extends DeviceFactory {
             return new FullSizedDesktop();
         else if(desktop.equalsIgnoreCase("HOMETHEATER"))
             return new HomeTheaterDesktop();
-        else if(desktop.equalsIgnoreCase("MAINSTREAM"))
-            return new MainstreamDesktop();
         return null;
     }
 
